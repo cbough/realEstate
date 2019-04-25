@@ -30,8 +30,8 @@ display: grid;
 .main-header {
   background-image: url("https://cdn.vox-cdn.com/thumbor/ufh2N5hs2Jq5GT2xMFrQ_Nodgp8=/0x0:5760x3840/1200x900/filters:focal(2420x1460:3340x2380)/cdn.vox-cdn.com/uploads/chorus_image/image/55306753/shutterstock_274960727.0.jpg");
   background-size: cover;
-  height: 39vh;
-  background-position: 50% 25%;
+  height: 60vh;
+  background-position: 50% 30%;
 }
 
 .image-grid div{
@@ -42,4 +42,35 @@ display: grid;
 
 body {
   margin: 0;
+}
+
+.main-header h1, .main-header h2, .search-grid p {
+  color: whitesmoke;
+}
+
+.search-grid {
+  display: grid;
+  grid-template: 300px / 50% 20%;
+  grid-gap: 1%;
+  padding-top: 6%
+  justify-content: center;
+  text-align: center;
+}
+
+.search-grid div {
+  background: rgba(30, 53, 62, 0.72)
+  padding: 1% 2% 3% 2%;
+  border-radius: 3px;
+}
+
+.search-grid div:nth-child(2) {
+  padding: 1% 5% 3% 5%;
+}
+
+.title-head {
+  margin-top: 0;
+  color: whitesmoke;
+  font-size: 2.5em;
+  letter-spacing: 3px;
+  text-transform: uppercase;
 }
