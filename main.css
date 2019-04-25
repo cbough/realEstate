@@ -1,3 +1,7 @@
+p {
+  font-size: 1.13em;
+}
+
 #navbar {
   background: #333;
   text-align: center;
@@ -22,8 +26,14 @@
   font-size: 18px;
 }
 
+
+.info-grid p {
+  line-height: 1.6;
+}
 .image-grid {
 display: grid;
+grid-template: 180px 180px / 20vw 20vw;
+grid-gap: 3.8%;
 }
 
 
@@ -34,10 +44,8 @@ display: grid;
   background-position: 50% 30%;
 }
 
-.image-grid div{
+.image-grid div {
   background-image: url(http://lorempixel.com/400/200/sports);
-  height: 200px;
-  width: 400px;
 }
 
 body {
@@ -52,13 +60,13 @@ body {
   display: grid;
   grid-template: 300px / 50% 20%;
   grid-gap: 1%;
-  padding-top: 6%
+  padding-top: 6%;
   justify-content: center;
   text-align: center;
 }
 
 .search-grid div {
-  background: rgba(30, 53, 62, 0.72)
+  background: rgba(30, 53, 62, 0.72);
   padding: 1% 2% 3% 2%;
   border-radius: 3px;
 }
@@ -73,4 +81,17 @@ body {
   font-size: 2.5em;
   letter-spacing: 3px;
   text-transform: uppercase;
+}
+
+
+.info-grid {
+  justify-content: center;
+  display: grid;
+  grid-template: 300px / 35% 35%;
+  grid-gap: 3.8%;
+}
+
+
+.info-header {
+  text-align: center;
 }
