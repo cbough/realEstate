@@ -79,6 +79,26 @@ grid-gap: 3.8%;
   color: whitesmoke;
 }
 
+.search-form {
+  text-align: left;
+}
+.search-form input {
+  padding-left: 5px 10px 5px 5px;
+}
+
+.search-form input [type="text"] {
+  width: 80%;
+}
+
+.search-form input [type="submit"] {
+  width: 15%;
+}
+
+.search-form label {
+  color: whitesmoke;
+  font-size: 18px;
+}
+
 .search-grid {
   display: grid;
   grid-template: 300px / 50% 20%;
