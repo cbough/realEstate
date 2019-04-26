@@ -1,9 +1,17 @@
+h1, h2 {
+  font-family: 'Cinzel', serif;
+}
+
+body {
+  margin: 0;
+}
+
 p {
   font-size: 1.13em;
 }
 
 #navbar {
-  background: #333;
+  background: #0E0E0E;
   text-align: center;
   padding-bottom: 0.5%;
   padding-top: 1%;
@@ -26,30 +34,45 @@ p {
   font-size: 18px;
 }
 
+.info-grid {
+  justify-content: center;
+  display: grid;
+  grid-template: 300px / 35% 40%;
+  grid-gap: 3.8%;
+  text-align: center;
+}
+
+.info-grid div button {
+  margin-top: 21%;
+  background: rgba(0, 0, 0, 0);
+  border-color: #fff;
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 4% 8%;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
 
 .info-grid p {
   line-height: 1.6;
 }
+
 .image-grid {
 display: grid;
 grid-template: 180px 180px / 20vw 20vw;
 grid-gap: 3.8%;
 }
 
+.image-grid div {
+  background-image: url(http://lorempixel.com/400/200/sports);
+}
 
 .main-header {
   background-image: url("https://cdn.vox-cdn.com/thumbor/ufh2N5hs2Jq5GT2xMFrQ_Nodgp8=/0x0:5760x3840/1200x900/filters:focal(2420x1460:3340x2380)/cdn.vox-cdn.com/uploads/chorus_image/image/55306753/shutterstock_274960727.0.jpg");
   background-size: cover;
   height: 60vh;
   background-position: 50% 30%;
-}
-
-.image-grid div {
-  background-image: url(http://lorempixel.com/400/200/sports);
-}
-
-body {
-  margin: 0;
 }
 
 .main-header h1, .main-header h2, .search-grid p {
@@ -82,15 +105,6 @@ body {
   letter-spacing: 3px;
   text-transform: uppercase;
 }
-
-
-.info-grid {
-  justify-content: center;
-  display: grid;
-  grid-template: 300px / 35% 35%;
-  grid-gap: 3.8%;
-}
-
 
 .info-header {
   text-align: center;
