@@ -17,7 +17,6 @@ p {
   padding-top: 1%;
 }
 
-
 #navbar ul li {
   display: inline;
   padding: 0 1.5%;
@@ -54,6 +53,10 @@ p {
   text-transform: uppercase;
 }
 
+.info-header {
+  text-align: center;
+}
+
 .info-grid p {
   line-height: 1.6;
 }
@@ -61,11 +64,16 @@ p {
 .image-grid {
 display: grid;
 grid-template: 180px 180px / 20vw 20vw;
-grid-gap: 3.8%;
+grid-gap: 2%;
+}
+
+.image-grid div button:hover {
+  cursor; pointer;
 }
 
 .image-grid div {
   background-image: url(http://lorempixel.com/400/200/sports);
+  background-size: cover;
 }
 
 .main-header {
@@ -83,14 +91,14 @@ grid-gap: 3.8%;
   text-align: left;
 }
 .search-form input {
-  padding-left: 5px 10px 5px 5px;
+  padding: 5px 10px 5px 5px;
 }
 
-.search-form input [type="text"] {
+.search-form input[type='text'] {
   width: 80%;
 }
 
-.search-form input [type="submit"] {
+.search-form input[type='submit'] {
   width: 15%;
 }
 
@@ -120,12 +128,7 @@ grid-gap: 3.8%;
 
 .title-head {
   margin-top: 0;
-  color: whitesmoke;
   font-size: 2.5em;
   letter-spacing: 3px;
   text-transform: uppercase;
-}
-
-.info-header {
-  text-align: center;
 }
